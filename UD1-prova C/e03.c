@@ -21,5 +21,13 @@ int main (){
     scanf("%f" , &c);
     junk = getchar();
 
+    avg=(a+b+c)/3;
 
+    if (avg>=6){
+        printf("promosso");
+    }else{
+        printf("bocciato");
+        
+    }
+        return 0;
 }
